@@ -1,6 +1,8 @@
 import { StyleSheet, View } from "react-native";
 import ProductScreen from "./src/data/screens/ProductScreen";
 
+
+
 export default function App() {
   return (
     <View style={styles.container}>
