@@ -2,7 +2,7 @@ import { FlatList, Image, StyleSheet, View } from "react-native";
 import products from "../products.js";
 
 
-export default function ProductScreen() {
+ const ProductScreen = ()  => {
   return (
     <FlatList
       data={products}
@@ -38,3 +38,5 @@ const styles = StyleSheet.create({
     height: "100%",
   },
 });
+
+ export default  ProductScreen;
